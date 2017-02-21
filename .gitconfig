@@ -1,0 +1,21 @@
+[user]
+	email = bharadwaj.arun@yahoo.com
+	name = ab
+[alias]
+a = add
+au= add -u
+b = branch
+ba = branch --all
+c = checkout
+chead = checkout HEAD 
+	commitm = commit -m
+d = diff
+dt = difftool
+l = log --oneline --date=iso --pretty=format:"%C(yellow)%h%x09%Creset%s%x09%Cred[%Cgreen%an%x09%ad%Cred]" -n   # to use this, you just need to type git l 5 instead of git log --oneline -n 5
+p = pull
+s = status
+su= status -uno
+[core]
+editor = vim
+[diff]
+tool = vimdiff
