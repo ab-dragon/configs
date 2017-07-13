@@ -1,0 +1,16 @@
+{
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    // add the 80 character guides
+    "editor.rulers": [80,120],
+    // show whitespaces tab will be show as ->
+    // and space will be shown as .
+    "editor.renderWhitespace": "all",
+    // remove trailing whitespaces upon save
+    "files.trimTrailingWhitespace": true
+}
