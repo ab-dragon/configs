@@ -12,5 +12,7 @@
     // and space will be shown as .
     "editor.renderWhitespace": "all",
     // remove trailing whitespaces upon save
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    // set font size
+    "editor.fontSize": 12
 }
